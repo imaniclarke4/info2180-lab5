@@ -1,1 +1,44 @@
 /* Add your own styles */
+*{
+    font-size:18px;
+    color: #2D3748;
+    font-family:-apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+body{
+    margin:0;
+}
+
+header{
+    background-color: rgb(45, 153, 148);
+    padding-left:10%;
+    padding-right:10%;
+    margin-top:0px;
+    padding-top:5px;
+    padding-bottom:3px;
+}
+
+h1{
+    color: white; 
+    font-size: 50px;
+    font-family: Arial; 
+}
+
+input{
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size:14px;
+    
+}
+
+input[type=text]{
+    width:60%;
+    box-sizing: border-box;
+}
+
+input[type=search]{
+    background-color:white;
+    color:black;
+    width:30%;
